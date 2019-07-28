@@ -1,0 +1,10 @@
+.img{
+    border: 2px solid green;
+}
+.img2{
+    composes: img;
+    width: 200px;
+}
+
+
+
