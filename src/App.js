@@ -7,6 +7,10 @@ import HocTest from './components/HocTest.tsx';
 import Composition from './components/Composition';
 import HooksTest from './components/HooksTest';
 
+// import Button from 'antd/lib/button'
+import {Button} from 'antd'
+import "antd/dist/antd.css"
+
 export default function App() {
     return (
         <div>
@@ -16,7 +20,8 @@ export default function App() {
             {/* <ContextTest></ContextTest> */}
             {/* <HocTest /> */}
             {/* <Composition /> */}
-            <HooksTest />
+            {/* <HooksTest /> */}
+            <Button>mua~</Button>
         </div>
     )
 }
